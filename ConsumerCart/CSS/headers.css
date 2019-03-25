@@ -1,0 +1,109 @@
+﻿.heading {
+    font-family: 'Global User Interface';
+    background-color: #2d2c2c;
+    color: white;
+}
+
+.td1 {
+    width: 600px;
+}
+
+.btntheme,
+#btn-group-vertical
+{
+    
+    font-family: sans-serif;
+    border:none;
+    background-color: #2d2c2c;
+    box-shadow: none;
+    outline: none;
+    border-radius: 0;
+    opacity: 0.0;
+    font-size: 15px;
+}
+
+.logo {
+    position: page;
+    left: 150px;
+}
+
+.txtbox {
+    box-shadow: none;
+    border-radius: 5px 5px;
+}
+
+.flatbtn {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+}
+
+.products {
+    font-family: 'Lucida Bright';
+}
+
+.productlabel {
+    font-family: Calibri;
+    font-size: medium;
+}
+
+.productdiv {
+    border: solid;
+    border-width: 3px;
+    border-radius: 5px 5px;
+    border-color: black;
+    background-color: #a1d3f5;
+    height: 300px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.productimage {
+    margin-left: 300px;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    border-color: black;
+}
+
+.ordersdiv {
+    border: ridge;
+    border-width: 5px;
+    border-radius: 3px 3px;
+    border-color: red;
+    height: 200px;
+    width: 600px;
+    text-align: left;
+    background-color: #2d2c2c;
+    margin-left: 400px;
+    margin-top: 50px;
+    color: white;
+}
+
+.cartdiv {
+    border: ridge;
+    border-width: 5px;
+    border-radius: 3px 3px;
+    border-color: red;
+    height: 200px;
+    width: 600px;
+    text-align: left;
+    background-color: #2d2c2c;
+    color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.flattxtbox {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #2d2c2c;
+    color: white;
+}

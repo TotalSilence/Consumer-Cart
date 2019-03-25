@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Navigator.master.cs" Inherits="ConsumerCart.Navigator" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 535px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color:dodgerblue;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <link href="CSS/headers.css" type="text/css" rel="stylesheet" />
+                <link href="bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css" rel="stylesheet" />
+
+                <div>
+                    <table>
+                        <tr>
+                            <td class="td1">
+                                <asp:ImageButton ImageUrl="~/Consumer Cart/logo_transparent.png" runat="server" AlternateText="Consumer Cart"  Width="200px" Height="200px" ID="image" OnClick="image_Click"/>
+                            </td>
+                            <td class="td1">
+                                <h1>Consumer Cart</h1>
+                            </td>
+                            <td class="td1" style="text-align: right;margin-left:100px; position:absolute;left:750px;top:75px;">
+                                <div class="navbar-right">
+                                    <asp:Image ImageUrl="~/Consumer Cart/account.png" Height="25px" Width="25px" runat="server" />
+                                    <asp:Label ID="acnamelbl" Text="" runat="server"></asp:Label>
+                                    <asp:Button ID="acsettings" Text="Account Settings" CssClass="flatbtn" runat="server" OnClick="acsettings_Click" />
+                                    <asp:Button ID="logoutbtn" Text="Log Out" CssClass="flatbtn" runat="server" OnClick="logoutbtn_Click" />
+                                    <asp:Button ID="orders" Text="Your Orders" CssClass="flatbtn" runat="server" OnClick="orders_Click" />
+                                    <asp:Button ID="cart" Text="Cart" CssClass="flatbtn" runat="server" OnClick="cart_Click" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <asp:ContentPlaceHolder ID="MainBody" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
